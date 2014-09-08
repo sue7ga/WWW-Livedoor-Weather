@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "It's module that description livedoor weather.",
    "author" : [
       "sue7ga <sue77ga@gmail.com>"
    ],
@@ -43,6 +43,10 @@
       },
       "runtime" : {
          "requires" : {
+            "Furl" : "0",
+            "JSON" : "0",
+            "LWP::UserAgent" : "0",
+            "XML::Simple" : "0",
             "perl" : "5.008005"
          }
       },
@@ -53,5 +57,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/sue7ga/WWW-Livedoor-Weather/issues"
+      },
+      "homepage" : "https://github.com/sue7ga/WWW-Livedoor-Weather",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/sue7ga/WWW-Livedoor-Weather.git",
+         "web" : "https://github.com/sue7ga/WWW-Livedoor-Weather"
+      }
+   },
    "version" : "0.01"
 }
